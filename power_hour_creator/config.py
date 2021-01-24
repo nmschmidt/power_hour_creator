@@ -16,7 +16,7 @@ VIDEO_FORMAT = 'mp4'
 phc_env = os.environ.get('PHC_ENV', 'production')
 
 MIGRATIONS_PATH = os.path.join(ROOT_DIR, 'db', 'migrations')
-track_length = 60
+track_length = 120
 
 OS = platform.system().lower()
 
